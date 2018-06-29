@@ -1,0 +1,131 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+/*
+body {
+    color: #777 !important;
+}*/
+
+@media (min-width: 970px) {
+  .container {
+    width: 970px;
+  }
+}
+
+.navbar-default {
+  background-color: #fe3f3f;
+  border-color: #c0392b;
+}
+
+.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ffbbbc;
+}
+
+.navbar-default .navbar-text {
+  color: #ecf0f1;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #ecf0f1;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+  color: #ffbbbc;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+  color: #ffbbbc;
+  background-color: #c0392b;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus {
+  color: #ffbbbc;
+  background-color: #c0392b;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #c0392b;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #c0392b;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+
+.navbar-default .navbar-link {
+  color: #ecf0f1;
+}
+
+.navbar-default .navbar-link:hover {
+  color: #ffbbbc;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #ecf0f1;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
+    color: #ffbbbc;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu>.active>a,
+  .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus {
+    color: #ffbbbc;
+    background-color: #c0392b;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin: 0 0 250px;
+}
+
+footer {
+  background-color: #fe3f3f;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  height: 250px;
+  width: 100%;
+  overflow: hidden;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  footer {
+    height: auto;
+    position: relative;
+  }
+  body {
+    margin: auto;
+  }
+}
+
+.carousel-div{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
